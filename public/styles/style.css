@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+}
+img {
+  margin-top: 5rem;
+  width: 150px;
+}
+h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: auto;
+}
+
+form {
+  padding-top: 0.5rem;
+}
+.top {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+/* .focus within es cuando un elemento input esta seleccionado */
+input:focus-within {
+  /* relative es para poder cambiarle el index */
+  position: relative;
+  /* index es para mandarlo al frente de los demas objetos del form y que no se  */
+  /* superpongan ante su sombra al ser seleccionado */
+  z-index: 1;
+}
+.middle {
+  border-radius: 0;
+  /* margin-bottom: -1px; */
+}
+.bottom {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-control {
+  max-width: 15rem;
+  margin: auto;
+  /* margin: 10px auto 5px auto; */
+}
+.form-button {
+  margin-top: 15px;
+  min-width: 4rem;
+}

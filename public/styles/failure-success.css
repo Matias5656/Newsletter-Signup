@@ -1,0 +1,25 @@
+.card {
+  text-align: left;
+  padding: 0px 0rem 0rem 5rem;
+}
+/* rgb(142, 210, 227); */
+p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+h5 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.failure {
+  background-color: rgb(179, 111, 111);
+}
+.success {
+  background-color: rgb(111, 155, 179);
+}
+.btn {
+  /* color: black; */
+  font-size: 1.1rem;
+  font-weight: 500;
+  /* margin: 0rem 0rem 0rem 6rem; */
+}
